@@ -29,7 +29,7 @@ export default function Home() {
 
     try {
       // INSTRUCTION: Replace with your Google Apps Script Web App URL
-      const scriptURL = "YOUR_GOOGLE_APPS_SCRIPT_URL_HERE"; 
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxT76A67f-uVnCDHbB1PFuE_DIUnXpiTYB1gEfbunfP2psUrfPs0WGzD_KIPShVbHI3/exec";
       
       const form = new FormData();
       Object.entries(formData).forEach(([key, value]) => {
